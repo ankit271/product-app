@@ -5,36 +5,46 @@ A web application built with TypeScript, Express.js, and MongoDB, following MVC 
 
 ### Directory Details
 
+# PRODUCT-APP Directory Structure
+```
 📦 PRODUCT-APP
-├── 📂 node_modules
-├── 📂 src
-│ ├── 📂 config
-│ │ └── 📄 db.ts # Database configuration
-│ ├── 📂 controllers
-│ │ └── 📄 productController.ts # Product business logic
-│ ├── 📂 models
-│ │ └── 📄 Products.ts # Product database schema
-│ ├── 📂 public
-│ │ └── 📂 css
-│ │ ├── 📄 output.css # Compiled Tailwind CSS
-│ │ └── 📄 styles.css # Custom styles
-│ ├── 📂 routes
-│ │ └── 📄 productRoutes.ts # API routes definition
-│ ├── 📂 views
-│ │ ├── 📂 partials # Reusable EJS components
-│ │ ├── 📄 add-product.ejs # Add product form view
-│ │ ├── 📄 edit-product.ejs # Edit product form view
-│ │ ├── 📄 index.ejs # Home page view
-│ │ └── 📄 product.ejs # Single product view
-│ ├── 📄 app.ts # Express app configuration
-│ └── 📄 server.ts # Server entry point
-├── 📄 .env # Environment variables
-├── 📄 .gitignore # Git ignore rules
-├── 📄 package-lock.json # Dependency lock file
-├── 📄 package.json # Project configuration
-├── 📄 README.md # Project documentation
-├── 📄 tailwind.config.js # Tailwind CSS configuration
-└── 📄 tsconfig.json # TypeScript configuration
+├── 📂 node_modules/            # Project dependencies
+├── 📂 src/
+│   ├── 📂 config/
+│   │   └── 📄 db.ts            # Database configuration
+│   │
+│   ├── 📂 controllers/
+│   │   └── 📄 productController.ts  # Product business logic
+│   │
+│   ├── 📂 models/
+│   │   └── 📄 Products.ts       # Product database schema
+│   │
+│   ├── 📂 public/
+│   │   └── 📂 css/
+│   │       ├── 📄 output.css    # Compiled Tailwind CSS
+│   │       └── 📄 styles.css    # Custom styles
+│   │
+│   ├── 📂 routes/
+│   │   └── 📄 productRoutes.ts  # API routes definition
+│   │
+│   ├── 📂 views/
+│   │   ├── 📂 partials/         # Reusable EJS components
+│   │   ├── 📄 add-product.ejs   # Add product form view
+│   │   ├── 📄 edit-product.ejs  # Edit product form view
+│   │   ├── 📄 index.ejs         # Home page view
+│   │   └── 📄 product.ejs       # Single product view
+│   │
+│   ├── 📄 app.ts               # Express app configuration
+│   └── 📄 server.ts            # Server entry point
+│
+├── 📄 .env                    # Environment variables
+├── 📄 .gitignore              # Git ignore rules
+├── 📄 package-lock.json       # Dependency lock file
+├── 📄 package.json            # Project configuration
+├── 📄 README.md               # Project documentation
+├── 📄 tailwind.config.js      # Tailwind CSS configuration
+└── 📄 tsconfig.json           # TypeScript configuration
+```
 
 - **src/**: Main source code directory
   - **config/**: Configuration files and setup
